@@ -4,8 +4,10 @@
 ## set defines a function and introduces the superassignment operator: <<-
 ### set sets x to y and i to NULL in the *parent environment*
 ## get defines a function that will return x
-## setinv defines a function that will calculate the inverse of a matrix and
-### store the output as i in the parent environment (here = makeCacheMatrix env)
+## setinv defines a function that will NOT calculate the inverse of a matrix and
+### store the output as i in the parent environment (here = makeCacheMatrix env),
+### but assigns the argument passed to it (here called 'solve') as i in the 
+### parent environment
 ## getinv defines a function that will return i
 ## list will assign the four functions to the object of makeCacheMatrix
 
